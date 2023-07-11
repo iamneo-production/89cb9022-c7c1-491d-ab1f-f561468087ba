@@ -1,0 +1,213 @@
+
+  .outer1
+  {
+    margin-left: 180px  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75vw;
+    height: auto;
+    box-shadow:0 0 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .outer
+  {
+    margin-top: 80px;
+    margin-left: 180px  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75vw;
+    height: auto;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .select
+  {
+    position: relative;
+    right: 75px;
+  }
+  .gender
+  {
+    position: relative;
+    top: 32px;
+    right: 152px;
+  }
+  .image img
+  {
+    width: 400px;
+  }
+  .container
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+  }
+  .auth
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(147, 55, 246);
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+    
+  }
+  .btn
+  {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .label
+  {
+    position: relative;
+    right: 220px;
+    font-weight: bold;
+  }
+  .btn-1
+  {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0.4rem !important;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  .btn {
+    appearance: button;
+    background-color:rgb(147, 55, 246);
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .btn:after {
+    background-clip: padding-box;
+    background-color: rgb(147, 55, 246);
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .btn:main,
+  .btn:focus {
+    user-select: auto;
+  }
+  
+  .btn:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .btn:disabled {
+    cursor: auto;
+  }
+    
+  .input
+  {
+    margin: 1rem 0 !important;
+    width: 500px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .navbar
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    height: 85px;
+  }
+
+  .link
+  {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5%;
+    
+
+  }
+
+  .login
+  {
+    position: relative;
+    right: 5px;
+  }
+  .center
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .link
+  {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("UserIcon.gif");
+    background-repeat: no-repeat;
+    background-position: 55%;
+    background-size:  50px; ;
+  }
+  
+  .Land
+  {
+    
+    margin-top: 80px;
+    margin-left: 180px  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75vw;
+    height: 100vh;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .b
+
+  {
+    display: flex;
+    background-image: url("bg.gif");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+  }
